@@ -1,0 +1,680 @@
+@-webkit-keyframes noise-anim {
+  0% {
+    clip: rect(424px, 9999px, 484px, 0);
+    left: -1%;
+    -webkit-filter: saturate(8.8);
+            filter: saturate(8.8);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  5% {
+    clip: rect(255px, 9999px, 285px, 0);
+    left: -1%;
+    -webkit-filter: saturate(14);
+            filter: saturate(14);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  10% {
+    clip: rect(155px, 9999px, 169px, 0);
+    left: -4%;
+    -webkit-filter: saturate(20);
+            filter: saturate(20);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  15% {
+    clip: rect(274px, 9999px, 328px, 0);
+    left: 2%;
+    -webkit-filter: saturate(0.6);
+            filter: saturate(0.6);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  20% {
+    clip: rect(306px, 9999px, 366px, 0);
+    left: 1%;
+    -webkit-filter: saturate(4.6);
+            filter: saturate(4.6);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  25% {
+    clip: rect(439px, 9999px, 517px, 0);
+    left: 1%;
+    -webkit-filter: saturate(0.8);
+            filter: saturate(0.8);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  30% {
+    clip: rect(345px, 9999px, 391px, 0);
+    left: 4%;
+    -webkit-filter: saturate(19.8);
+            filter: saturate(19.8);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  35% {
+    clip: rect(318px, 9999px, 378px, 0);
+    left: 5%;
+    -webkit-filter: saturate(1.4);
+            filter: saturate(1.4);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  40% {
+    clip: rect(146px, 9999px, 234px, 0);
+    left: -4%;
+    -webkit-filter: saturate(15.6);
+            filter: saturate(15.6);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  45% {
+    clip: rect(52px, 9999px, 83px, 0);
+    left: 5%;
+    -webkit-filter: saturate(4.4);
+            filter: saturate(4.4);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  50% {
+    clip: rect(219px, 9999px, 288px, 0);
+    left: 2%;
+    -webkit-filter: saturate(3.2);
+            filter: saturate(3.2);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  55% {
+    clip: rect(352px, 9999px, 373px, 0);
+    left: -2%;
+    -webkit-filter: saturate(6.2);
+            filter: saturate(6.2);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  60% {
+    clip: rect(30px, 9999px, 39px, 0);
+    left: 4%;
+    -webkit-filter: saturate(14.6);
+            filter: saturate(14.6);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  65% {
+    clip: rect(360px, 9999px, 400px, 0);
+    left: 1%;
+    -webkit-filter: saturate(6.4);
+            filter: saturate(6.4);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  70% {
+    clip: rect(129px, 9999px, 224px, 0);
+    left: 2%;
+    -webkit-filter: saturate(9.8);
+            filter: saturate(9.8);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  75% {
+    clip: rect(266px, 9999px, 307px, 0);
+    left: 1%;
+    -webkit-filter: saturate(17.4);
+            filter: saturate(17.4);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  80% {
+    clip: rect(165px, 9999px, 178px, 0);
+    left: 1%;
+    -webkit-filter: saturate(4.4);
+            filter: saturate(4.4);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  85% {
+    clip: rect(90px, 9999px, 139px, 0);
+    left: 1%;
+    -webkit-filter: saturate(12.4);
+            filter: saturate(12.4);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  90% {
+    clip: rect(456px, 9999px, 498px, 0);
+    left: 2%;
+    -webkit-filter: saturate(8.6);
+            filter: saturate(8.6);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  95% {
+    clip: rect(307px, 9999px, 396px, 0);
+    left: 5%;
+    -webkit-filter: saturate(3.2);
+            filter: saturate(3.2);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  100% {
+    clip: rect(469px, 9999px, 558px, 0);
+    left: -4%;
+    -webkit-filter: saturate(18.4);
+            filter: saturate(18.4);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+}
+@keyframes noise-anim {
+  0% {
+    clip: rect(424px, 9999px, 484px, 0);
+    left: -1%;
+    -webkit-filter: saturate(8.8);
+            filter: saturate(8.8);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  5% {
+    clip: rect(255px, 9999px, 285px, 0);
+    left: -1%;
+    -webkit-filter: saturate(14);
+            filter: saturate(14);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  10% {
+    clip: rect(155px, 9999px, 169px, 0);
+    left: -4%;
+    -webkit-filter: saturate(20);
+            filter: saturate(20);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  15% {
+    clip: rect(274px, 9999px, 328px, 0);
+    left: 2%;
+    -webkit-filter: saturate(0.6);
+            filter: saturate(0.6);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  20% {
+    clip: rect(306px, 9999px, 366px, 0);
+    left: 1%;
+    -webkit-filter: saturate(4.6);
+            filter: saturate(4.6);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  25% {
+    clip: rect(439px, 9999px, 517px, 0);
+    left: 1%;
+    -webkit-filter: saturate(0.8);
+            filter: saturate(0.8);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  30% {
+    clip: rect(345px, 9999px, 391px, 0);
+    left: 4%;
+    -webkit-filter: saturate(19.8);
+            filter: saturate(19.8);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  35% {
+    clip: rect(318px, 9999px, 378px, 0);
+    left: 5%;
+    -webkit-filter: saturate(1.4);
+            filter: saturate(1.4);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  40% {
+    clip: rect(146px, 9999px, 234px, 0);
+    left: -4%;
+    -webkit-filter: saturate(15.6);
+            filter: saturate(15.6);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  45% {
+    clip: rect(52px, 9999px, 83px, 0);
+    left: 5%;
+    -webkit-filter: saturate(4.4);
+            filter: saturate(4.4);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  50% {
+    clip: rect(219px, 9999px, 288px, 0);
+    left: 2%;
+    -webkit-filter: saturate(3.2);
+            filter: saturate(3.2);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  55% {
+    clip: rect(352px, 9999px, 373px, 0);
+    left: -2%;
+    -webkit-filter: saturate(6.2);
+            filter: saturate(6.2);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  60% {
+    clip: rect(30px, 9999px, 39px, 0);
+    left: 4%;
+    -webkit-filter: saturate(14.6);
+            filter: saturate(14.6);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  65% {
+    clip: rect(360px, 9999px, 400px, 0);
+    left: 1%;
+    -webkit-filter: saturate(6.4);
+            filter: saturate(6.4);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  70% {
+    clip: rect(129px, 9999px, 224px, 0);
+    left: 2%;
+    -webkit-filter: saturate(9.8);
+            filter: saturate(9.8);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  75% {
+    clip: rect(266px, 9999px, 307px, 0);
+    left: 1%;
+    -webkit-filter: saturate(17.4);
+            filter: saturate(17.4);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  80% {
+    clip: rect(165px, 9999px, 178px, 0);
+    left: 1%;
+    -webkit-filter: saturate(4.4);
+            filter: saturate(4.4);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  85% {
+    clip: rect(90px, 9999px, 139px, 0);
+    left: 1%;
+    -webkit-filter: saturate(12.4);
+            filter: saturate(12.4);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  90% {
+    clip: rect(456px, 9999px, 498px, 0);
+    left: 2%;
+    -webkit-filter: saturate(8.6);
+            filter: saturate(8.6);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  95% {
+    clip: rect(307px, 9999px, 396px, 0);
+    left: 5%;
+    -webkit-filter: saturate(3.2);
+            filter: saturate(3.2);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  100% {
+    clip: rect(469px, 9999px, 558px, 0);
+    left: -4%;
+    -webkit-filter: saturate(18.4);
+            filter: saturate(18.4);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+}
+@-webkit-keyframes noise-anim-2 {
+  0% {
+    clip: rect(234px, 9999px, 277px, 0);
+    left: -2%;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-filter: saturate(1);
+            filter: saturate(1);
+  }
+  5% {
+    clip: rect(296px, 9999px, 311px, 0);
+    left: 2%;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: saturate(9.4);
+            filter: saturate(9.4);
+  }
+  10% {
+    clip: rect(102px, 9999px, 136px, 0);
+    left: 0%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(7.8);
+            filter: saturate(7.8);
+  }
+  15% {
+    clip: rect(104px, 9999px, 137px, 0);
+    left: 5%;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: saturate(3.6);
+            filter: saturate(3.6);
+  }
+  20% {
+    clip: rect(328px, 9999px, 338px, 0);
+    left: 4%;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: saturate(14.8);
+            filter: saturate(14.8);
+  }
+  25% {
+    clip: rect(130px, 9999px, 153px, 0);
+    left: 1%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(12.6);
+            filter: saturate(12.6);
+  }
+  30% {
+    clip: rect(361px, 9999px, 397px, 0);
+    left: 2%;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-filter: saturate(19.4);
+            filter: saturate(19.4);
+  }
+  35% {
+    clip: rect(491px, 9999px, 503px, 0);
+    left: 0%;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-filter: saturate(10.8);
+            filter: saturate(10.8);
+  }
+  40% {
+    clip: rect(395px, 9999px, 411px, 0);
+    left: 4%;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-filter: saturate(9.8);
+            filter: saturate(9.8);
+  }
+  45% {
+    clip: rect(39px, 9999px, 85px, 0);
+    left: 4%;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: saturate(16.4);
+            filter: saturate(16.4);
+  }
+  50% {
+    clip: rect(115px, 9999px, 137px, 0);
+    left: 1%;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: saturate(10.4);
+            filter: saturate(10.4);
+  }
+  55% {
+    clip: rect(2px, 9999px, 47px, 0);
+    left: -2%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(4.4);
+            filter: saturate(4.4);
+  }
+  60% {
+    clip: rect(346px, 9999px, 370px, 0);
+    left: -1%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(11.2);
+            filter: saturate(11.2);
+  }
+  65% {
+    clip: rect(341px, 9999px, 359px, 0);
+    left: -1%;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: saturate(18.4);
+            filter: saturate(18.4);
+  }
+  70% {
+    clip: rect(194px, 9999px, 215px, 0);
+    left: 4%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(2.8);
+            filter: saturate(2.8);
+  }
+  75% {
+    clip: rect(129px, 9999px, 166px, 0);
+    left: -3%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(2.8);
+            filter: saturate(2.8);
+  }
+  80% {
+    clip: rect(196px, 9999px, 200px, 0);
+    left: 3%;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: saturate(17.8);
+            filter: saturate(17.8);
+  }
+  85% {
+    clip: rect(264px, 9999px, 299px, 0);
+    left: 4%;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-filter: saturate(9.6);
+            filter: saturate(9.6);
+  }
+  90% {
+    clip: rect(282px, 9999px, 298px, 0);
+    left: 0%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(9.2);
+            filter: saturate(9.2);
+  }
+  95% {
+    clip: rect(19px, 9999px, 46px, 0);
+    left: 5%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(8.6);
+            filter: saturate(8.6);
+  }
+  100% {
+    clip: rect(360px, 9999px, 403px, 0);
+    left: -2%;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-filter: saturate(11.8);
+            filter: saturate(11.8);
+  }
+}
+@keyframes noise-anim-2 {
+  0% {
+    clip: rect(234px, 9999px, 277px, 0);
+    left: -2%;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-filter: saturate(1);
+            filter: saturate(1);
+  }
+  5% {
+    clip: rect(296px, 9999px, 311px, 0);
+    left: 2%;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: saturate(9.4);
+            filter: saturate(9.4);
+  }
+  10% {
+    clip: rect(102px, 9999px, 136px, 0);
+    left: 0%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(7.8);
+            filter: saturate(7.8);
+  }
+  15% {
+    clip: rect(104px, 9999px, 137px, 0);
+    left: 5%;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: saturate(3.6);
+            filter: saturate(3.6);
+  }
+  20% {
+    clip: rect(328px, 9999px, 338px, 0);
+    left: 4%;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: saturate(14.8);
+            filter: saturate(14.8);
+  }
+  25% {
+    clip: rect(130px, 9999px, 153px, 0);
+    left: 1%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(12.6);
+            filter: saturate(12.6);
+  }
+  30% {
+    clip: rect(361px, 9999px, 397px, 0);
+    left: 2%;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-filter: saturate(19.4);
+            filter: saturate(19.4);
+  }
+  35% {
+    clip: rect(491px, 9999px, 503px, 0);
+    left: 0%;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-filter: saturate(10.8);
+            filter: saturate(10.8);
+  }
+  40% {
+    clip: rect(395px, 9999px, 411px, 0);
+    left: 4%;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-filter: saturate(9.8);
+            filter: saturate(9.8);
+  }
+  45% {
+    clip: rect(39px, 9999px, 85px, 0);
+    left: 4%;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: saturate(16.4);
+            filter: saturate(16.4);
+  }
+  50% {
+    clip: rect(115px, 9999px, 137px, 0);
+    left: 1%;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: saturate(10.4);
+            filter: saturate(10.4);
+  }
+  55% {
+    clip: rect(2px, 9999px, 47px, 0);
+    left: -2%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(4.4);
+            filter: saturate(4.4);
+  }
+  60% {
+    clip: rect(346px, 9999px, 370px, 0);
+    left: -1%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(11.2);
+            filter: saturate(11.2);
+  }
+  65% {
+    clip: rect(341px, 9999px, 359px, 0);
+    left: -1%;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: saturate(18.4);
+            filter: saturate(18.4);
+  }
+  70% {
+    clip: rect(194px, 9999px, 215px, 0);
+    left: 4%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(2.8);
+            filter: saturate(2.8);
+  }
+  75% {
+    clip: rect(129px, 9999px, 166px, 0);
+    left: -3%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(2.8);
+            filter: saturate(2.8);
+  }
+  80% {
+    clip: rect(196px, 9999px, 200px, 0);
+    left: 3%;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-filter: saturate(17.8);
+            filter: saturate(17.8);
+  }
+  85% {
+    clip: rect(264px, 9999px, 299px, 0);
+    left: 4%;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-filter: saturate(9.6);
+            filter: saturate(9.6);
+  }
+  90% {
+    clip: rect(282px, 9999px, 298px, 0);
+    left: 0%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(9.2);
+            filter: saturate(9.2);
+  }
+  95% {
+    clip: rect(19px, 9999px, 46px, 0);
+    left: 5%;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-filter: saturate(8.6);
+            filter: saturate(8.6);
+  }
+  100% {
+    clip: rect(360px, 9999px, 403px, 0);
+    left: -2%;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-filter: saturate(11.8);
+            filter: saturate(11.8);
+  }
+}
